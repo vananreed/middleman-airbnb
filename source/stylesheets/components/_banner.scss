@@ -8,6 +8,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.banner-sm {
+  height: 40vh;
+  width: auto;
+  background-position: center;
+}
 .banner h1 {
   font-size: 50px;
   font-weight: bold;
@@ -19,4 +25,29 @@
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+.profile {
+  padding: 50px;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  .owner {
+    margin: 20px;
+  }
+  .description {
+    width: 30vw;
+  }
+  .img-circle {
+    height: 80px;
+  }
+  h1 {
+    font-size: 15px;
+  }
+
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
 }
